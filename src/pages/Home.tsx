@@ -1,7 +1,7 @@
 import React from 'react';
 import HeroCarousel from '../components/HeroCarousel';
 import PrayerForm from '../components/PrayerRequest';
-import NewsletterForm from '../components/NewsletterForm';
+import NewsletterForm from '../components/Newsletter';
 
 const Home: React.FC = () => {
   return (
