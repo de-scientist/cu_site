@@ -1,6 +1,6 @@
 import React from 'react';
 import HeroCarousel from '../components/HeroCarousel';
-import PrayerForm from '../components/PrayerForm';
+import PrayerForm from '../components/PrayerRequest';
 import NewsletterForm from '../components/NewsletterForm';
 
 const Home: React.FC = () => {
