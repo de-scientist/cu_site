@@ -2,6 +2,7 @@ import React from 'react';
 import HeroCarousel from '../components/HeroCarousel';
 import PrayerForm from '../components/PrayerRequest';
 import NewsletterForm from '../components/Newsletter';
+import Testimonials from '../components/Testimonials';
 
 const Home: React.FC = () => {
   return (
@@ -146,6 +147,19 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section>
+ 
+      <section className="py-5" data-aos="fade-up">
+  <div className="container">
+    <h2 className="section-title text-center">Member Testimonials</h2>
+    <p className="text-center lead mb-5">
+      Voices that echo gratitude and growth — stories shaped by fellowship,
+      worship, and the gentle work of God within the MUTCU family.
+    </p>
+
+    <Testimonials />
+  </div>
+</section>
+
 
       <section className="prayer-section py-5" data-aos="fade-up">
         <div className="container">
