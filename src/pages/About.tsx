@@ -1,5 +1,7 @@
 import React from "react";
 import { usePageEffects } from "../hooks/usePageEffects";
+import "../styles/about.css";
+
 
 // Import sections
 import HeroSection from "../components/About/HeroSection";
