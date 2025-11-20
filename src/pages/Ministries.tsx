@@ -4,6 +4,7 @@ import Navbar from "@/components/Ministry/Navbar";
 import HeroSection from "@/components/Ministry/HeroSection";
 import MinistriesOverview from "@/components/Ministry/MinistriesOverview";
 import CallToAction from "@/components/Ministry/CallToAction";
+import MinistryCard from "@/components/Ministry/MinistryCard";
 import Footer from "@/components/Ministry/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -30,6 +31,7 @@ const Ministries: React.FC = () => {
       <HeroSection />
       <MinistriesOverview />
       <CallToAction />
+      <MinistryCard {...({} as any)} />
       <Footer />
     </>
   );
