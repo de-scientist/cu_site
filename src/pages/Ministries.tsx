@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import Navbar from "@/components/Ministry/Navbar";
 import HeroSection from "@/components/Ministry/HeroSection";
 import MinistriesOverview from "@/components/Ministry/MinistriesOverview";
-import CallToAction from "./CallToAction";
+import CallToAction from "@/components/Ministry/CallToAction";
 import Footer from "./Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
