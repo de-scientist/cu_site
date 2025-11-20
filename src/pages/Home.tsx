@@ -3,6 +3,8 @@ import HeroCarousel from '../components/HeroCarousel';
 import PrayerForm from '../components/PrayerRequest';
 import NewsletterForm from '../components/Newsletter';
 import Testimonials from '../components/Testimonials';
+import "../styles/index.css";
+
 
 const Home: React.FC = () => {
   return (
