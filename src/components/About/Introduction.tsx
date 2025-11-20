@@ -15,7 +15,7 @@ const Introduction: React.FC = () => {
 
             <p>
               As a proud member of{" "}
-                <a href="https://focuskenya.org/" target="_blank" rel="noreferrer"
+                <a href="https://focuskenya.org/" target="_blank" rel="noreferrer noopener"
                   className="text-decoration-none mutcu-link-orange">
                 FOCUS-KENYA
               </a>, MUTCU benefits from a national network...
