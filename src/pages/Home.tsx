@@ -12,7 +12,6 @@ import PrayerRequest from "../components/PrayerRequest";
 import Testimonials from "../components/Testimonials";
 import GalleryPreview from "../components/GalleryPreview";
 import Newsletter from "../components/Newsletter";
-import Footer from "../components/Footer";
 
 
 // Import Effects Hook (navbar scroll, AOS init, smooth scroll)
@@ -37,7 +36,7 @@ const Home: React.FC = () => {
         <Newsletter />
       </main>
 
-      <Footer />
+   
     </>
   );
 };
