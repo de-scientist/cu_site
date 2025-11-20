@@ -12,7 +12,7 @@ import PrayerRequest from "../components/PrayerRequest";
 import Testimonials from "../components/Testimonials";
 import GalleryPreview from "../components/GalleryPreview";
 import Newsletter from "../components/Newsletter";
-
+import "aos/dist/aos.css";
 
 // Import Effects Hook (navbar scroll, AOS init, smooth scroll)
 import { usePageEffects } from "../hooks/usePageEffects";

@@ -1,6 +1,8 @@
 import React from "react";
 import { usePageEffects } from "../hooks/usePageEffects";
 import "../styles/about.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 // Import sections
