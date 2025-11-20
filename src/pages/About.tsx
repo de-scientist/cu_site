@@ -4,6 +4,7 @@ import "../styles/about.css";
 
 
 // Import sections
+import Navbar from "@/components/About/Navbar";
 import HeroSection from "../components/About/HeroSection";
 import Introduction from "../components/About/Introduction";
 import GuidingPrinciples from "../components/About/GuidingPrinciples";
@@ -18,6 +19,7 @@ const About: React.FC = () => {
 
   return (
     <>
+      <Navbar />
       <HeroSection />
       <Introduction />
       <GuidingPrinciples />
