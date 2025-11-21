@@ -8,6 +8,7 @@ import JoinMinistryCTA from "@/components/Music/JoinMinistryCTA";
 import JoinMinistryModal from "@/components/Music/JoinMinistryModal";
 import ImageModals from "@/components/Music/ImageModals";
 import Navbar from "../components/Navbar";
+import "../styles/music.css";
 
 
 const MusicMinistryPage: React.FC = () => {
