@@ -16,6 +16,7 @@ import StructureLeadership from "../components/About/StructureLeadership";
 import ExecutiveCommittee from "../components/About/ExecutiveCommittee";
 import WhyJoin from "../components/About/WhyJoin";
 
+
 const About: React.FC = () => {
   usePageEffects();
 
