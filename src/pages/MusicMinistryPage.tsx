@@ -10,8 +10,6 @@ import ImageModals from "@/components/Music/ImageModals";
 import Footer from "@/components/Music/Footer";
 import Navbar from "../components/Navbar";
 
-// NOTE: developer-provided uploaded file path (transform to URL in your build if needed)
-import "/mnt/data/index.css";
 
 const MusicMinistryPage: React.FC = () => {
   useEffect(() => {
