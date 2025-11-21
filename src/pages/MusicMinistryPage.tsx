@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import PageHero from "@/components/Music/PageHero";
 import MinistryIntro from "@/components/Music/MinistryIntro";
 import SubMinistries from "@/components/Music/SubMinistries";
-import FeaturedEvents from "../components/MusicMinistry/FeaturedEvents";
+import FeaturedEvents from "@/components/Music/FeaturedEvents";
 import LeadershipSpotlight from "../components/MusicMinistry/LeadershipSpotlight";
 import JoinMinistryCTA from "../components/MusicMinistry/JoinMinistryCTA";
 import JoinMinistryModal from "../components/MusicMinistry/JoinMinistryModal";
