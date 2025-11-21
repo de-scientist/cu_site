@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import PageHero from "@/components/Music/PageHero";
-import MinistryIntro from "../components/MusicMinistry/MinistryIntro";
+import MinistryIntro from "@/components/Music/MinistryIntro";
 import SubMinistries from "../components/MusicMinistry/SubMinistries";
 import FeaturedEvents from "../components/MusicMinistry/FeaturedEvents";
 import LeadershipSpotlight from "../components/MusicMinistry/LeadershipSpotlight";
