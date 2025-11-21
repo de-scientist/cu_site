@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import PageHero from "../components/MusicMinistry/PageHero";
+import PageHero from "@/components/Music/PageHero";
 import MinistryIntro from "../components/MusicMinistry/MinistryIntro";
 import SubMinistries from "../components/MusicMinistry/SubMinistries";
 import FeaturedEvents from "../components/MusicMinistry/FeaturedEvents";
