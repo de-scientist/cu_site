@@ -7,7 +7,7 @@ import LeadershipSpotlight from "@/components/Music/LeadershipSpotlight";
 import JoinMinistryCTA from "@/components/Music/JoinMinistryCTA";
 import JoinMinistryModal from "@/components/Music/JoinMinistryModal";
 import ImageModals from "@/components/Music/ImageModals";
-import Footer from "../components/MusicMinistry/Footer";
+import Footer from "@/components/Music/Footer";
 import Navbar from "../components/Navbar";
 
 // NOTE: developer-provided uploaded file path (transform to URL in your build if needed)
