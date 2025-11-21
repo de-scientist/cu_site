@@ -3,7 +3,7 @@ import PageHero from "@/components/Music/PageHero";
 import MinistryIntro from "@/components/Music/MinistryIntro";
 import SubMinistries from "@/components/Music/SubMinistries";
 import FeaturedEvents from "@/components/Music/FeaturedEvents";
-import LeadershipSpotlight from "../components/MusicMinistry/LeadershipSpotlight";
+import LeadershipSpotlight from "@/components/Music/LeadershipSpotlight";
 import JoinMinistryCTA from "../components/MusicMinistry/JoinMinistryCTA";
 import JoinMinistryModal from "../components/MusicMinistry/JoinMinistryModal";
 import ImageModals from "../components/MusicMinistry/ImageModals";
