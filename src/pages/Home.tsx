@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "../styles/index.css";
 
 // Import Components
@@ -12,6 +12,7 @@ import PrayerRequest from "../components/PrayerRequest";
 import Testimonials from "../components/Testimonials";
 import GalleryPreview from "../components/GalleryPreview";
 import Newsletter from "../components/Newsletter";
+import AOS from "aos";
 import "aos/dist/aos.css";
 
 // Import Effects Hook (navbar scroll, AOS init, smooth scroll)
@@ -19,6 +20,21 @@ import { usePageEffects } from "../hooks/usePageEffects";
 
 const Home: React.FC = () => {
   usePageEffects(); // enables AOS + navbar scroll behavior
+
+ useEffect(() => {
+    AOS.init({ duration: 1000, once: true, mirror: false });
+
+    const navbar = document.querySelector(".navbar");
+    const handleScroll = () => {
+      if (navbar) {
+        if (window.scrollY > 50) navbar.classList.add("scrolled");
+        else navbar.classList.remove("scrolled");
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <>
