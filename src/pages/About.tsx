@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { usePageEffects } from "../hooks/usePageEffects";
 import "../styles/about.css";
 import AOS from "aos";
@@ -19,6 +19,21 @@ import WhyJoin from "../components/About/WhyJoin";
 
 const About: React.FC = () => {
   usePageEffects();
+
+useEffect(() => {
+    AOS.init({ duration: 1000, once: true, mirror: false });
+
+    const navbar = document.querySelector(".navbar");
+    const handleScroll = () => {
+      if (navbar) {
+        if (window.scrollY > 50) navbar.classList.add("scrolled");
+        else navbar.classList.remove("scrolled");
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <>
